@@ -2,6 +2,11 @@
 
 Ce projet consiste à configurer et exécuter plusieurs services à l'aide de Docker, comprenant notamment un service HTML, avec une configuration optimisée pour un environnement léger.
 
+Voici un shéma de l'infrastructeur 
+
+![image](https://github.com/user-attachments/assets/c84e9e3e-fb08-4e5f-8e57-ed8b49fef4fd)
+
+
 ## Étapes principales
 
 ### 1. Clonage des applications
@@ -176,10 +181,54 @@ on peut voir que la clé a été créer :
 
     ![image](https://github.com/user-attachments/assets/d2014d84-8c03-4d2a-b312-8813d3d655f5)
 
-
-## Étapes finales
 Mon projet est maintenant configuré avec succès, et les services sont opérationnels.
 
-
 ![image](https://github.com/user-attachments/assets/045cc9a1-5775-427b-a0b0-3c3f7739f9f6)
+
+
+### Push sur Docker Hub
+1) Avant de commencer je me suis connecter sur docker hub ensuite j'ai crée un répository avec mon NOM projet-ahmadi
+2) Ensuite on utilise la commande suivant pour se connecter depuis le terminal
+```bash
+docker login
+```
+![image](https://github.com/user-attachments/assets/086fe269-444f-4192-beb3-3b825373504f)
+
+3) On utiliser la commande suivant pour voir les ID des images
+   ```bash
+   docker images
+   ```
+   ![image](https://github.com/user-attachments/assets/192695a1-254f-4f7b-a774-1a774bf4ab6a)
+
+4) ON tague les images
+   
+   ![image](https://github.com/user-attachments/assets/575ed3f1-6440-46db-83d4-ee22d0a5d360)
+
+
+6) Ensuite on push TOUT
+   
+   ![image](https://github.com/user-attachments/assets/3267d378-031c-4ad3-a4b1-2536448f0839)
+   ![image](https://github.com/user-attachments/assets/e32baa01-7082-48eb-988f-d85e15ddc1d6)
+
+### PARTIE 3
+
+## 1) Qu'est-ce que le devops ?
+Le DevOps est une façon de travailler qui rapproche les équipes de développement et les équipes des opérations. L'idée est de rendre leur collaboration plus fluide et efficace, afin d'accélérer la création et la mise en production des applications. Cela permet de livrer des logiciels plus rapidement, tout en s'assurant qu'ils sont de bonne qualité et fiables. En gros, DevOps facilite le travail ensemble pour améliorer les résultats et gagner en rapidité.
+
+## 2) En quoi le devops vous a aidé dans cette mission ?
+Le DevOps nous a vraiment facilité la tâche en automatisant des étapes importantes du processus. Par exemple, grâce à Docker, on a pu créer des environnements identiques pour tous, ce qui évite les problèmes de "ça marche sur ma machine". En automatisant le déploiement, on a pu tester plus rapidement et déployer plus facilement nos services. De plus, en utilisant Git et Docker Hub, on a simplifié la gestion des versions et le partage des applications, ce qui a rendu la collaboration entre les membres de l'équipe beaucoup plus fluide et efficace.
+
+Votre chef de projet vous demande de comparer l'utilisation de Docker avec des machines virtuelles.
+Que répondrez-vous ?
+
+Docker : Permet de créer des conteneurs légers qui partagent le même système d'exploitation, ce qui les rend plus rapides à démarrer et plus économes en ressources que les machines virtuelles.
+Machines virtuelles : Chaque machine virtuelle nécessite son propre système d'exploitation, ce qui les rend plus lourdes en termes de ressources et plus lentes à démarrer. Cependant, elles offrent un environnement plus isolé et indépendant.
+
+À l'aide de vos connaissances personnelles, citer un ou plusieurs autres outils similaires à docker qui
+pourrait aider votre équipe à livrer et maintenir ce projet client.
+
+ubernetes : Un outil pour orchestrer et gérer des clusters de conteneurs Docker, permettant de déployer, mettre à l'échelle et gérer des applications conteneurisées.
+Podman : Un autre outil de gestion de conteneurs, similaire à Docker, mais sans nécessiter de démon et avec une meilleure sécurité.
+Vagrant : Un outil pour créer et gérer des environnements de machines virtuelles, souvent utilisé pour des environnements de développement.
+OpenShift : Une plateforme d'orchestration de conteneurs basée sur Kubernetes, ajoutant des fonctionnalités supplémentaires pour le déploiement d'applications.
 
