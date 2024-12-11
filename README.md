@@ -223,7 +223,7 @@ docker login
    ![image](https://github.com/user-attachments/assets/3267d378-031c-4ad3-a4b1-2536448f0839)
    ![image](https://github.com/user-attachments/assets/e32baa01-7082-48eb-988f-d85e15ddc1d6)
 
-### 7) mon reposiotru se trouve sur ce lien : 
+### 7) mon reposiotru se trouve sur ce lien en allant dans l'onglet tags : 
 
 [https://hub.docker.com/repository/docker/rateb99/projet-ahmadi/general](https://hub.docker.com/repository/docker/rateb99/projet-ahmadi/general)
 
