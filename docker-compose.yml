@@ -1,0 +1,86 @@
+services:
+  django-argon-dashboard:
+    container_name: django-argon-dashboard
+    restart: always
+    env_file: './django-argon-dashboard/.env'
+    build: './django-argon-dashboard'
+    networks:
+      - db_network
+      - web_network
+
+  django-coreui:
+    container_name: django-coreui
+    restart: always
+    env_file: './django-coreui/.env'
+    build: './django-coreui'
+    networks:
+      - db_network
+      - web_network
+
+  django-material-dashboard:
+    container_name: django-material-dashboard
+    restart: always
+    env_file: './django-material-dashboard/.env'
+    build: './django-material-dashboard'
+    networks:
+      - db_network
+      - web_network
+
+  django-pixel:
+    container_name: django-pixel
+    restart: always
+    env_file: './django-pixel/.env'
+    build: './django-pixel'
+    networks:
+      - db_network
+      - web_network
+
+  django-soft-ui-design:
+    container_name: django-soft-ui-design
+    restart: always
+    env_file: './django-soft-ui-design/.env'
+    build: './django-soft-ui-design'
+    networks:
+      - db_network
+      - web_network
+  
+  django-datta-able:
+    container_name: django-datta-able
+    restart: always
+    env_file: './django-datta-able/.env'
+    build: './django-datta-able'
+    networks:
+      - db_network
+      - web_network
+    ports:
+      - "5006:5006"  
+
+  nginx:
+    container_name: nginx
+    restart: always
+    image: "nginx:stable-alpine-slim"
+    ports:
+      - "80:80"
+      - "8082:8082"
+      - "8083:8083"
+      - "8084:8084"
+      - "8085:8085"
+      - "8086:8086"
+      - "8080:8080"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./nginx/html:/usr/share/nginx/html
+    networks:
+      - web_network
+    depends_on: 
+      - django-argon-dashboard
+      - django-coreui
+      - django-material-dashboard
+      - django-pixel
+      - django-soft-ui-design
+
+networks:
+  db_network:
+    driver: bridge
+  web_network:
+    driver: bridge
