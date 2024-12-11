@@ -1,10 +1,15 @@
 # Projet Final Docker
 
 Ce projet consiste à configurer et exécuter plusieurs services à l'aide de Docker, comprenant notamment un service HTML, avec une configuration optimisée pour un environnement léger.
+Je suis en groupe avec Romain, Jonathan, Souleyman, Tomy 
 
 Voici un shéma de l'infrastructeur 
 
 ![image](https://github.com/user-attachments/assets/c84e9e3e-fb08-4e5f-8e57-ed8b49fef4fd)
+
+Structure de projet 
+
+![image](https://github.com/user-attachments/assets/336c0cd0-11d4-4ea7-88ac-a5b4a90bed45)
 
 
 ## Étapes principales
