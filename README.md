@@ -48,7 +48,7 @@ ON Télécharge toutes les applications nécessaires via `git clone` et le HTML 
 
 
 ### 4. Création du Dockerfile pour le service HTML
-- On choisisse une image légère comme base pour le service HTML (par exemple, `nginx:stable-alpine-slim`).
+- On choisie une image légère comme base pour le service HTML (par exemple, `nginx:stable-alpine-slim`).
 
 
 ![image](https://github.com/user-attachments/assets/062c9098-26e3-49f8-aa1b-0e72c3184166)
@@ -121,7 +121,7 @@ Avec le service HTML, cela fait un total de 7 services.
    ```bash
    git init
    ```
-2. Ajoute l'URL de votre dépôt GitHub :
+2. Ajoute de l'URL de mon dépôt GitHub :
    ```bash
    git remote add origin git@github.com:Ratebah20/projet-ahmadi.git
    ```
@@ -143,7 +143,7 @@ on peut voir que la clé a été créer :
    
 
    
-3. Affichez la clé publique pour l'ajouter à GitHub :
+3. On affiche la clé publique pour l'ajouter à GitHub :
    ```bash
    cat ~/.ssh/id_rsa.pub
    ```
