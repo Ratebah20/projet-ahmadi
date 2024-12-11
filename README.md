@@ -218,13 +218,13 @@ Le DevOps est une façon de travailler qui rapproche les équipes de développem
 ## 2) En quoi le devops vous a aidé dans cette mission ?
 Le DevOps nous a vraiment facilité la tâche en automatisant des étapes importantes du processus. Par exemple, grâce à Docker, on a pu créer des environnements identiques pour tous, ce qui évite les problèmes de "ça marche sur ma machine". En automatisant le déploiement, on a pu tester plus rapidement et déployer plus facilement nos services. De plus, en utilisant Git et Docker Hub, on a simplifié la gestion des versions et le partage des applications, ce qui a rendu la collaboration entre les membres de l'équipe beaucoup plus fluide et efficace.
 
-Votre chef de projet vous demande de comparer l'utilisation de Docker avec des machines virtuelles.
+## 3) Votre chef de projet vous demande de comparer l'utilisation de Docker avec des machines virtuelles.
 Que répondrez-vous ?
 
 Docker : Permet de créer des conteneurs légers qui partagent le même système d'exploitation, ce qui les rend plus rapides à démarrer et plus économes en ressources que les machines virtuelles.
 Machines virtuelles : Chaque machine virtuelle nécessite son propre système d'exploitation, ce qui les rend plus lourdes en termes de ressources et plus lentes à démarrer. Cependant, elles offrent un environnement plus isolé et indépendant.
 
-À l'aide de vos connaissances personnelles, citer un ou plusieurs autres outils similaires à docker qui
+## 4) À l'aide de vos connaissances personnelles, citer un ou plusieurs autres outils similaires à docker qui
 pourrait aider votre équipe à livrer et maintenir ce projet client.
 
 ubernetes : Un outil pour orchestrer et gérer des clusters de conteneurs Docker, permettant de déployer, mettre à l'échelle et gérer des applications conteneurisées.
