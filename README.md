@@ -210,6 +210,10 @@ docker login
    ![image](https://github.com/user-attachments/assets/3267d378-031c-4ad3-a4b1-2536448f0839)
    ![image](https://github.com/user-attachments/assets/e32baa01-7082-48eb-988f-d85e15ddc1d6)
 
+### 7) mon reposiotru se trouve sur ce lien : 
+
+https://hub.docker.com/repository/docker/rateb99/projet-ahmadi/general
+
 ### PARTIE 3
 
 ## 1) Qu'est-ce que le devops ?
@@ -231,4 +235,7 @@ ubernetes : Un outil pour orchestrer et gérer des clusters de conteneurs Docker
 Podman : Un autre outil de gestion de conteneurs, similaire à Docker, mais sans nécessiter de démon et avec une meilleure sécurité.
 Vagrant : Un outil pour créer et gérer des environnements de machines virtuelles, souvent utilisé pour des environnements de développement.
 OpenShift : Une plateforme d'orchestration de conteneurs basée sur Kubernetes, ajoutant des fonctionnalités supplémentaires pour le déploiement d'applications.
+
+## 5) Expliquer le choix concernant les frameworks utilisés
+Car j'ai déjà travailé avec ces frameworks en TP pendant mes cours qui marcher correctement.
 
