@@ -1,6 +1,6 @@
 # Projet Final Docker
 
-Ce projet consiste à configurer et exécuter plusieurs services à l'aide de Docker, comprenant notamment un service HTML et des applications Django, avec une configuration optimisée pour un environnement léger.
+Ce projet consiste à configurer et exécuter plusieurs services à l'aide de Docker, comprenant notamment un service HTML, avec une configuration optimisée pour un environnement léger.
 
 ## Étapes principales
 
