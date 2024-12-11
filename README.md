@@ -11,11 +11,19 @@ Structure de projet
 
 ![image](https://github.com/user-attachments/assets/336c0cd0-11d4-4ea7-88ac-a5b4a90bed45)
 
+## Outils utilisés
+VM Ubuntu 
+![image](https://github.com/user-attachments/assets/7296b452-d3ae-4288-b224-1b2b7cfd22e7)
+
+Je me suis connecté depuis Visuel studio code via SSH
+
+![image](https://github.com/user-attachments/assets/32ed3059-f77e-4dd3-a6a9-ab2d91fa0a73)
+
 
 ## Étapes principales
 
 ### 1. Clonage des applications
-ON Télécharge toutes les applications nécessaires via `git clone`.
+ON Télécharge toutes les applications nécessaires via `git clone` et le HTML on doit le télécharger et ensuite le mettre dans notre projet 
 
 ![image](https://github.com/user-attachments/assets/7440c7d7-e8ba-473d-92f5-315de9412f98)
 
